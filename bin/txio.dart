@@ -1,6 +1,7 @@
 
 
-import 'package:txio/mvc/http/http_method.dart';
+import 'dart:io';
+
 
 
 main() {
@@ -12,4 +13,7 @@ main() {
   Runes input = new Runes(
       '\u2665  \u{1f605}  \u{1f60e}  \u{1f47b}  \u{1f596}  \u{1f44d}');
   print(new String.fromCharCodes(input));
+//   FileSystemEntity.isDirectorySync("dd").then((isDir){
+//
+//  });
 }
